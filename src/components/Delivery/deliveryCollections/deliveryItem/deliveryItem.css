@@ -1,0 +1,23 @@
+.delivery-item-cover{
+    height: 190px;
+    width: 320px;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: var(--collection-shadow);
+    background-color: var(--inactive-color);
+}
+.delivery-item-image{
+    object-fit: cover;
+    height: 100%;
+    width: 50%;
+    border-radius: 50%;
+}
+.delivery-item-title{
+    
+    font-size: 20px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 6px;
+    margin-left: 50px;
+}
